@@ -1,0 +1,27 @@
+#sign-in {
+  border: none;
+  float: right;
+}
+
+#sign-in-text {
+  margin: 0;
+   width: 160px;
+   float: left;
+}
+
+#sign-in-text p, a {
+  margin: 0;
+  font-size: 12px;
+}
+
+#sign-in-button {
+  display: inline;
+  float: left
+}
+
+.button-primary {
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background: #0077c5;
+}
