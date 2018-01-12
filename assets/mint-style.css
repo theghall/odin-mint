@@ -1,3 +1,11 @@
+header {
+  height: 60px;
+}
+
+body {
+  background-color: #eceef1;
+}
+
 #sign-in {
   border: none;
   float: right;
@@ -5,8 +13,8 @@
 
 #sign-in-text {
   margin: 0;
-   width: 160px;
-   float: left;
+  width: 160px;
+  float: left;
 }
 
 #sign-in-text p, a {
@@ -19,9 +27,82 @@
   float: left
 }
 
+#sign-up {
+  margin: 30px auto 0;
+  border-radius: 4px;
+  width: 33%;
+  background-color: #fff;
+}
+
+#products li {
+  float: left;
+  margin: 0 15px 5px;
+}
+
+#sign-up hr {
+  clear: both;
+  margin: 5px 0;
+}
+
+#sign-up span {
+  text-align: center;
+}
+
+#sign-up span p {
+  font-size: 24px;
+  margin: 0;
+}
+
+#sign-up-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.learn-more {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+#sign-up div {
+ width: 90%;
+ margin: 10px auto;
+}
+
+#sign-up input {
+  border-radius: 4px;
+  height: 25px;
+}
+
+#sign-up input, label {
+  width: 100%;
+  display: block;
+}
+
+#sign-up footer p {
+  font-size: 12px;
+  text-align: center;
+}
+
+#sign-up footer div {
+  font-size: 12px;
+  float: left;
+  margin: 0;
+}
+
+#sign-up footer span {
+  position: relative;
+  left: 25%;
+  margin: 0;
+}
+
 .button-primary {
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   background: #0077c5;
+}
+
+#sign-up .button-primary {
+  height: 35px;
+  width: 101.8%;
 }
